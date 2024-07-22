@@ -23,7 +23,7 @@ Second Career: Ingenieria industrial
 ## Course data
 
 ---
-Course: Sistemas Operativos 1
+Course: Sistemas Operativos 1  
 Career: Ingenieria en ciencias y sistemas  
 Cursado: Segundo semestre 2024  
 Institution: USAC

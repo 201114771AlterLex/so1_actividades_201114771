@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 ##Variable with the user name of system
-GITHUB_USER=$(git config user.name)
+GITHUB_USER=$(git config user.name || echo "201114771AlterLex")
 ##Get json from api with information of user git
 response=$(curl -s https://api.github.com/users/$GITHUB_USER)
 

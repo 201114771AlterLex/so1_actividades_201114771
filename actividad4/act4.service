@@ -1,0 +1,16 @@
+[Unit]
+Description=Activity 4 
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/activity4.sh
+Restart=always
+RestartSec=1
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=activity4
+User=nobody
+Group=nogroup
+
+[Install]
+WantedBy=multi-user.target

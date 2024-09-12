@@ -72,3 +72,18 @@ Usando el siguiente código como referencia, completar el programa para que sea
 ejecutable y responder las siguientes preguntas:
 • ¿Cuántos procesos únicos son creados?
 • ¿Cuántos hilos únicos son creados?
+
+### Solucion
+
+El programa quedo como la siguiente manera, para no dormir el programa se coloco varios print para ver el desarrollo del mismo
+![alt](./img/Captura%20de%20pantalla%20de%202024-09-12%2010-20-21.png)
+
+Al ejecutar el programa tuvimos la siguiente salida
+
+![alt](./img/Captura%20de%20pantalla%20de%202024-09-12%2010-21-01.png)
+
+**Respuesta 1:** Al contar los Pid unicos podemos ver que fueron 6 procesos unicos
+
+**Respuesta 2:** Al ver donde se ejecuto los hilos y sus salida el id de Hilo podemos decir que fue un unico hilo el que se creo.
+
+**Nota:** Al ejecutar el programa no se sabia porque aparecia un parent id 3171, pero al ver el monitor de procesos del sistema el procesos es systemd debio a que los procesos se vuelve huerfanos debido a que el padre termina antes que sus hijos y systemd los adopta.
